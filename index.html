@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Techfusion Sultan Kudarat</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #dbeafe;
+}
+
+/* Highlights */
+.highlights {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #020617;
+    padding: 15px;
+    gap: 10px;
+}
+
+.highlight-box {
+    background: #1e293b;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #020617;
+    padding: 10px;
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 5px 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Sections */
+section {
+    padding: 25px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-left: 4px solid #0ea5e9;
+    padding-left: 10px;
+}
+
+/* Cards */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #334155;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 200px;
+    background: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8') center/cover;
+}
+
+/* Contact */
+.contact {
+    background: #020617;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Animation */
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px; /* increased spacing */
+    background: #020617;
+    font-size: 13px;
+    margin-top: 30px; /* space above footer */
+}
+</style>
+
+</head>
+<body>
+
+<header class="fade-in">
+    <h1>Techfusion Sultan Kudarat</h1>
+    <p>Professional Mobile Phone Repair & Unlocking Services</p>
+</header>
+
+<div class="highlights">
+    <div class="highlight-box">⚡ Fast & Affordable Service</div>
+    <div class="highlight-box">📱 Same-Day Repairs Available</div>
+    <div class="highlight-box">🔍 Free Device Check-Up</div>
+</div>
+
+<div class="banner"></div>
+
+<nav>
+    <a href="#remove">Unlocking</a>
+    <a href="#repair">Repairs</a>
+    <a href="#replace">Parts Replacement</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="remove" class="fade-in">
+    <h2>Device Unlocking & Access Solutions</h2>
+    <div class="services">
+        <div class="card">Removal of passcodes and forgotten passwords</div>
+        <div class="card">Pattern lock unlocking services</div>
+        <div class="card">Google account (FRP) lock removal</div>
+        <div class="card">Recovery of disabled iPhones and iPads</div>
+        <div class="card">Huawei ID unlocking assistance</div>
+        <div class="card">Samsung device unlocking solutions</div>
+        <div class="card">PayJoy lock removal</div>
+    </div>
+</section>
+
+<section id="repair" class="fade-in">
+    <h2>Mobile Repair Services</h2>
+    <div class="services">
+        <div class="card">Fixing charging and power-related issues</div>
+        <div class="card">Repair of WiFi and Bluetooth connectivity problems</div>
+        <div class="card">Touchscreen responsiveness repair</div>
+        <div class="card">Correction of screen pixel defects</div>
+        <div class="card">Diagnosis and repair of black screen / no display issues</div>
+        <div class="card">Software reprogramming and system restoration</div>
+    </div>
+</section>
+
+<section id="replace" class="fade-in">
+    <h2>Parts Replacement Services</h2>
+    <div class="services">
+        <div class="card">LCD and screen replacement for damaged displays</div>
+        <div class="card">Battery replacement services</div>
+        <div class="card">Tablet and iPad battery replacement</div>
+        <div class="card">Mobile phone battery replacement</div>
+        <div class="card">Speaker repair and replacement</div>
+        <div class="card">Earphone jack repair or replacement</div>
+        <div class="card">Power and volume button repair</div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Contact Information</h2>
+    <div class="contact">
+        <p><strong>Location:</strong> Beside Servi Drugs, Lambayong, Sultan Kudarat</p>
+        <p><strong>Phone:</strong> 09393401716</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Techfusion Sultan Kudarat. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
